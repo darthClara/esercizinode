@@ -12,6 +12,11 @@
 // console.log("il tuo nickname generato randomicamente è: " + id)
 
 // ESERCIZIO 3:
-let funzioneImportata = require("./modulo")
-console.log(funzioneImportata());
+// CommonJS Module
+// let funzioneImportata = require("./modulo1")
+// console.log(funzioneImportata());
 
+// ESERCIZIO 4:
+// ECMAScript Module
+import saluta from "./modulo2.mjs"
+saluta("clara")
